@@ -1,0 +1,258 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #f0eeef;
+}
+header{
+	background-color:#f70000;
+	overflow: hidden;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+header ul{
+	list-style-type: none;
+}
+header ul li{
+	float: left;
+	margin-right: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Aril, Tahoma;
+}
+.left-div{
+	width: 25%;
+	float: left;
+}
+.left-div .list{
+	background-color:#ffffff;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 40px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.left-div .list ul{
+	list-style-type: none;
+}
+.left-div .list ul li{
+	width: 100%;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+.left-div .list ul li button{
+	background-color: #ff0000;
+	color: #ffffff;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.left-div .list h2{
+	margin-left: 50px;
+	font-family: Aril, Tahoma;
+}
+.left-div .list ul li a{
+	text-decoration: none;
+	color: #524752;
+	font-family: Aril, Tahoma;
+}
+.left-div .scan{
+	background-color:#ffffff;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+.left-div .scan h2{
+	color: #574f57;	
+}
+.left-div .scan h3{
+	color: #b4a8b5;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.left-div .scan img{
+	margin-left: 30px;
+}
+.left-div .scan p{
+	margin-left: 60px;
+	color: #72697a;
+	font-weight: bold;
+}
+.right-div{
+	width: 60%;
+	float: left;
+	position: relative;
+}
+.right-div article{
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	overflow: hidden;
+}
+.right-div article .left{
+   width: 50%;
+   float: left;
+   padding: 10px;
+}
+.right-div article .left img{
+	width: 80px;
+	height: 80px;
+	border-radius: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.right-div article .left h3{
+	display: inline;
+	margin-top: 20px;
+	font-weight: lighter;
+}
+.right-div article .left button{
+	background-color: #ff0000;
+	color: #ffffff;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.right-div article .left i{
+	margin-right: 5px;
+}
+.right-div article p{
+	color: #999;
+	font-family: Aril, Tahoma;
+	font-size: 15px;
+}
+.right-div article .left span{
+	color: #ff0000;
+}
+.right-div article .right{
+	width: 20%;
+	float: right;
+	padding: 10px;
+}
+.right-div article .right form{
+	position: relative;
+}
+.right-div article .right button{
+	background: none;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 120px;
+	margin-top: 5px;
+	margin-left: 10px;
+	border: 1px solid #dfdde1;
+	border-radius: 5px;
+	position: relative;
+	padding-right: 20px;
+}
+.right-div article .right button:last-child{
+	padding-right: 8px;
+}
+.right-div article .right button span{
+	color: #ff0000;
+}
+.right-div article .right .fa-angle-down{
+	 position: relative;
+    right: 25px;
+    top: 1px;
+}
+.right-div  section{
+	background-color: #cfccd2;
+	overflow: hidden;
+	clear: both;
+	padding: 10px;
+}
+.right-div  section ul{
+	list-style-type: none;
+	text-align: center;
+}
+.right-div section ul li{
+	float: left;
+	width: 15%;
+	margin-right: 10px;
+}
+
+.right-div section ul li a{
+	text-decoration: none;
+	color: #59545f;
+	font-family:Aril, Tahoma;
+	font-size: 16px;
+}
+.right-div section ul li a span{
+	color: #ff0000;
+}
+.article2{
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	overflow: hidden;
+	margin-top: 20px;
+	padding: 10px;
+	height: 600px;
+	border-radius: 10px;
+}
+.article2 .sec {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d7d6da;;
+	background-color: #ffffff;
+}
+.article2 .sec:last-child{
+	border-bottom: none;
+} 
+.article2 .sec .sec-left{
+	float: left;
+	width: 60%;
+}
+.article2 .sec .sec-left img{
+	width: 70px;
+	height: 120px;
+	float: left;
+	border: 2px solid #d7d6da;
+	margin-right: 10px;
+}
+.article2 .sec .sec-left p{
+	color: #625b66;
+	font-family: Aril, Tahoma;
+}
+.article2 .sec .sec-left p span{
+	color: #d7d6da;
+}
+.article2 .sec .sec-right{
+	float: right;
+	width: 15%;
+}
+.article2 .sec .sec-right p{
+	cursor: pointer;
+}
+.article2 .sec .p-button{
+	text-align: center;
+	position: relative;
+}
+.article2 .sec .fa-angle-down{
+	position: relative;
+	bottom: 30px;
+	left: 430px;
+}
+.third-div{
+	position: relative;
+}
+.third-div .fa-pencil-square-o{
+	position: relative;
+	top: 750px;
+	left: 20px;
+	color:#ff0000;
+	cursor: pointer;
+}
+.third-div .fa-times-circle{
+	position: relative;
+	top: 790px;
+	left: 20px;
+	color: #ff0000;
+	cursor: pointer;
+}
